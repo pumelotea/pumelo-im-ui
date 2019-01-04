@@ -1,0 +1,174 @@
+@charset "utf-8"; 
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, pre, 
+dl, dt, dd, ul, ol, li, th, td, div, span, img, 
+fieldset, lengend, button, input, select, textarea{margin: 0;padding: 0;} 
+
+a {
+	color: #2c9ffe;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #5eacec;
+}
+
+.app-wrapper {
+	width: 100vw;
+	height: 100vh;
+	padding: 0;
+}
+
+.sidebar-container {
+	height: 100vh;
+	width: 210px;
+	background: #545c64;
+	padding: 0;
+}
+
+.main-container {
+	/*background: #3d3c56;*/
+	padding-left: 10px;
+}
+
+.head-container {
+	height: 60px;
+	background: #efefef;
+	line-height: 60px;
+}
+
+.app-content {
+	height: 100%;
+	overflow-y: auto;
+	background: #fff;
+	padding: 0;
+	display:block;
+}
+
+.nav-menu {
+	width: 200px;
+	border-right: none;
+}
+
+.logo {
+ 	font-size: 30px;
+ 	width: 200px;
+ 	float: left;
+}
+
+.dropfunc-list {
+	float: right;
+	width: 100px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.el-dropdown:hover{
+	color: #2c9ffe;
+}
+
+.dropfunc-list-item {
+	width: 160px;
+}
+
+.head-img-contanier {
+	float: right;
+	width: 40px;
+	cursor: pointer;
+	margin-right: 5px;
+	height: 40px;
+	margin-top: 10px;
+	border-radius: 50%;
+	background: #2c9ffe;
+}
+
+.head-img-contanier:hover {
+	float: right;
+	width: 40px;
+	cursor: pointer;
+	margin-right: 5px;
+	height: 40px;
+	margin-top: 10px;
+	border-radius: 50%;
+	background: #5eacec;
+}
+
+.login-form-container {
+	width: 300px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	margin: auto;
+}
+
+.form-item {
+	padding: 10px;
+}
+.login-label {
+	font-size: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.logo-big {
+	font-size: 35px;
+	text-align: center;
+	color: #3d3c56;
+}
+
+.login-button {
+	width: 280px;
+}
+
+.breadcrumb-container {
+	margin-left: -10px;
+	margin-right: -10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/*----------------------------*/
+/*container 通用容器*/
+.container {
+	border: 1px solid #efefef;
+	overflow-y: auto;
+}
+
+/*margin 外边距*/
+.mg-t-10 {
+	margin-top: 10px;
+}
+
+.mg-b-10 {
+	margin-bottom: 10px;
+}
+
+/*padding 内边距*/
+.pd-t-10 {
+	padding-top: 10px;
+}
+
+.pd-b-10 {
+	padding-bottom: 10px;
+}
+
+/*背景色*/
+.bg-gun-powder {
+	background: #3d3c56;
+}
+
+.bg-red {
+	background: red;
+}
+
+.bg-grey {
+	background: #efefef;
+}
+
+/*字体颜色*/
+.color-sandy-brown {
+	color: #ed9d4d;
+}
+
+.color-white {
+	color: #ffffff;
+}
