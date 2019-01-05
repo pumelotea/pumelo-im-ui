@@ -26,7 +26,7 @@ export default {
         wsurl = window.api.dev.ws
     }
 
-    if (process.env.NODE_ENV === "product") {
+    if (process.env.NODE_ENV === "production") {
         wsurl = window.api.prod.ws
     }
     this.ws = new WebSocket(wsurl + '?' + API.getToken())

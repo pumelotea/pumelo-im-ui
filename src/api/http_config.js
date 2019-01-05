@@ -8,7 +8,7 @@ axios.interceptors.request.use(config => {
         config.baseURL = window.api.dev.http
     }
 
-    if (process.env.NODE_ENV === "product") {
+    if (process.env.NODE_ENV === "production") {
         config.baseURL = window.api.prod.http
     }
     // if(!API.isLogin()){
