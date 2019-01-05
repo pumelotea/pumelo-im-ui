@@ -21,7 +21,15 @@ export default {
   heartTimer: null,
   ws: null,
   connect() {
-    this.ws = new WebSocket(process.env.WS_URL + '?' + API.getToken())
+    let wsurl  = ""
+    if (process.env.NODE_ENV === "development"){
+        wsurl = window.api.dev.ws
+    }
+
+    if (process.env.NODE_ENV === "product") {
+        wsurl = window.api.prod.ws
+    }
+    this.ws = new WebSocket(wsurl + '?' + API.getToken())
     let that = this
     //监听消息接收
     this.ws.onmessage = function (e) {

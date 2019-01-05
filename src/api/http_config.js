@@ -4,8 +4,13 @@ import router from '../router'
 import API from './index'
 
 axios.interceptors.request.use(config => {
-    config.baseURL = process.env.BASE_URL
+    if (process.env.NODE_ENV === "development"){
+        config.baseURL = window.api.dev.http
+    }
 
+    if (process.env.NODE_ENV === "product") {
+        config.baseURL = window.api.prod.http
+    }
     // if(!API.isLogin()){
     //   router.push({path: '/login'})
     // }
