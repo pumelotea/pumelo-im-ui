@@ -1,18 +1,18 @@
 import Vue from 'vue'
-import App from './App'
-import router from './router'
-import store from './store/store'
-import NoticePlugin from './api/notice'
+import App from '@/App'
+import router from '@/router'
+import store from '@/store/store'
+import NoticePlugin from '@/api/notice'
 Vue.use(NoticePlugin)
-import Bus from './api/bus'
+import Bus from '@/api/bus'
 Vue.use(Bus)
-import API from './api'
+import API from '@/api'
 Vue.use(API)
-import Msg from './api/msg'
+import Msg from '@/api/msg'
 Vue.use(Msg)
-import DB from './api/db'
+import DB from '@/api/db'
 Vue.use(DB)
-import Vtalk from './api/vtalk'
+import Vtalk from '@/api/vtalk'
 Vue.use(Vtalk)
 
 

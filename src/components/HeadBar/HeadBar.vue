@@ -100,9 +100,9 @@
 </template>
 
 <script>
-  import Search from '../../components/PopWindow/Search'
-  import AskFriendPreview from '../../components/PopWindow/AskFriendPreview'
-  import {formatTime} from "../../utils";
+  import Search from '@/components/PopWindow/Search'
+  import AskFriendPreview from '@/components/PopWindow/AskFriendPreview'
+  import {formatTime} from "@/utils";
 
   export default {
     name: 'HeadBar',

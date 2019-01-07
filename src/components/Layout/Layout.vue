@@ -123,17 +123,17 @@
 </template>
 
 <script>
-  import headBar from '../../components/HeadBar/HeadBar'
-  import {parseTime} from "../../utils";
-  import UserInfo from '../../components/PopWindow/UserInfo'
-  import GroupInfo from '../../components/PopWindow/GroupInfo'
-  import Delete from '../../components/PopWindow/Delete'
-  import Remark from '../../components/PopWindow/Remark'
-  import AskFriend from '../../components/PopWindow/AskFriend'
-  import AskFriendPreview from '../../components/PopWindow/AskFriendPreview'
-  import AskGroup from '../../components/PopWindow/AskGroup'
-  import AskGroupPreview from '../../components/PopWindow/AskGroupPreview'
-  import VideoTalk from '../../components/PopWindow/VideoTalk'
+  import headBar from '@/components/HeadBar/HeadBar'
+  import {parseTime} from "@/utils";
+  import UserInfo from '@/components/PopWindow/UserInfo'
+  import GroupInfo from '@/components/PopWindow/GroupInfo'
+  import Delete from '@/components/PopWindow/Delete'
+  import Remark from '@/components/PopWindow/Remark'
+  import AskFriend from '@/components/PopWindow/AskFriend'
+  import AskFriendPreview from '@/components/PopWindow/AskFriendPreview'
+  import AskGroup from '@/components/PopWindow/AskGroup'
+  import AskGroupPreview from '@/components/PopWindow/AskGroupPreview'
+  import VideoTalk from '@/components/PopWindow/VideoTalk'
   export default {
     name: 'Layout',
     components: {
